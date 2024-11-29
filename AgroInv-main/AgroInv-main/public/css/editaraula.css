@@ -1,0 +1,55 @@
+@import 'estilos.css';
+
+*{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+h2{
+    align-items: center;
+    font-size: 27px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.card{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 30px;
+    max-width: 550px;
+    border-radius: 30px!important;
+    background-color: #9999994c;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.breadcrumb{
+	border-radius: 20px;
+	background-color: #7BA474;
+    margin: 0%!important;
+}
+
+.container.my-5{
+    max-width: 600px;
+}
+
+a{
+    color: white;
+}
+
+.btn.btn-primary{
+    background-color: #6a9f62 !important;
+    border-color: #6a9f62 !important;
+    border-radius: 10px;
+    width: 120px !important;
+    height: 40px !important;
+}
+
+.btn.btn-primary.btn-danger{
+margin:0%;
+padding: 15px;
+margin-top: 3px;
+background-color: rgba(255, 0, 0, 0.538)!important;
+border-color: rgba(255, 0, 0, 0.538)!important;
+
+}

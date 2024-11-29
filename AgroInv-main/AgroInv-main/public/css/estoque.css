@@ -1,0 +1,118 @@
+@import 'estilos.css';
+
+*{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    
+}
+
+section{
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 10px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+
+#titulo{
+  text-align: center!important;
+ font-weight: bold;
+ padding-top: 10px;
+}
+
+/* botão para adicionar item */
+.btn.btn-primary.mb-3{
+  line-height:28px;
+  margin: 0 auto!important;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #85a27b;
+  border-color: #6a9f62;
+  font-weight: bolder;
+}
+.btn-primary.focus, .btn-primary:focus{
+  box-shadow: 0 0 0 0.2rem rgba(46, 112, 40, 0.5); 
+}
+
+.table .thead-dark th{
+  background-color: #c2d1bd!important;
+  border-color: #c2d1bd;
+  font-weight: 700;
+  color:#21291b;
+}
+
+.btn.btn-warning.btn-sm.mr-2.editButton{
+  background-color: #5a7e42;
+  color: #ffff;
+  border-color: #5a7e42;
+  border-radius: 10px;
+}
+
+.btn.btn-danger.btn-sm.deleteButton{
+ 
+  border-radius: 10px;
+  padding: 8px;
+}
+
+a:hover{
+  color: #d9cece!important;
+}
+
+.btn-warning.focus, .btn-warning:focus{
+  box-shadow: 0 0 0 0.2rem rgba(67, 154, 59, 0.5); 
+}
+
+
+/* EDITANDO AS JANELAS MODAIS */
+
+.modal-header{
+  background-color: #8bc372;
+  color:#ffff;
+  font-weight: 700!important;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.modal-content{
+  border-radius: 20px;
+}
+
+/* botao de atualizar*/
+
+.btn.btn-secondary{
+background-color: #a4d28a;
+border-color: #a4d28a;
+border-radius: 10px;
+color:#21291b;
+font-weight: 700;
+}
+
+.btn.btn-danger{
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+#categoria{
+  width: 20%;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid #ced4da;
+}
+
+.btn.btn-warning{
+
+  margin:0px auto!important;
+  background-color: #85a27b;
+  border-color: #6a9f62;
+  border-radius: 10px 10px 0px 0px;
+  color:#fff;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.table-bordered td, .table-bordered th{
+  border: 1px solid rgba(79, 78, 78, 0.208);
+
+}
+
+#ac{
+  border-radius: 0px 10px 0px 0px;
+}

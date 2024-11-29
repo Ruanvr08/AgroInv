@@ -1,0 +1,89 @@
+@import 'estilos.css';
+
+*{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+a{
+    color:#504e4e9c;
+    
+}
+a:hover{
+    color:rgba(13, 13, 13, 0.585)
+}
+
+h1{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.767);
+    font-weight:bold;
+}
+
+.card{
+    border-radius: 30px!important;
+    background-color: #9999994c;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    margin-bottom: 45px;
+    min-width: 300px;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.btn-info {
+    background-color: #6a9f62 !important;
+    border-radius: 10px;
+    width: 120px !important;
+    height: 40px !important;
+}
+
+.form-control{
+    background-color: #a9a9a99c;
+}
+
+/* Medias para adaptar o calendário para o mobile*/
+
+
+/* media do iphone 12*/
+@media screen and (max-width: 390px) {
+
+    .col-xl-4.col-md-6.mx-auto.p-5{
+     
+        margin-top: 70px;
+        margin-bottom: 20px;
+        margin-right: 40px;
+    
+    }
+    
+    .card-body{
+    max-width: 300px;
+    max-height: 300px;
+
+    }
+}
+
+/*media do iphone se*/
+
+@media screen and (max-width: 376px){
+
+    .card{
+        max-width: 200px;
+        max-height: 100px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .card-body{
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0px auto;
+    }
+
+}

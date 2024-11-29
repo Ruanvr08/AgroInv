@@ -1,0 +1,44 @@
+@import 'estilos.css';
+
+*{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.card{
+    border-radius: 20px;
+    margin-bottom: 70px;
+    margin-top: 75px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+   
+}
+.btn-info{
+    background-color: #6a9f62!important;
+    border-radius: 10px;
+    font-weight: 700!important;
+}
+
+a.adm{
+    color:#504e4e9c!important;
+    font-size: medium;
+}
+a:hover{
+    color:rgba(13, 13, 13, 0.585)
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.767);
+    font-weight: 700;
+}
+.form-control{
+    background-color: #A9A9A9;
+}
+.form-control:focus{
+    background-color: #A9A9A9;
+    border-color: #E9E9E9;
+}
+.card-body{
+    background-color: #E9E9E9;
+    border-radius: 20px;
+}

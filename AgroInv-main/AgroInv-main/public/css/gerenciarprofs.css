@@ -1,0 +1,131 @@
+@import 'estilos.css';
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+html {
+    min-height: 100vh;
+}
+
+/* corpo da pagina que agrupa todas as informações em um card */
+
+section {
+    width: 1320px;
+    border-radius: 40px !important;
+    padding: 25px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.10);
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.btnvermais:hover {
+    color: rgba(0, 0, 0, 0.516) !important;
+    text-decoration: none !important;
+}
+
+/* botão do ver mais */
+
+.btnvermais {
+
+    margin-left: 10px;
+    background-color: #7BA474;
+    border-radius: 10px;
+    padding: 3px;
+    color: aliceblue;
+
+}
+
+.btnvermais:hover {
+    color: rgba(0, 0, 0, 0.516) !important;
+    text-decoration: none !important;
+}
+
+/* para dar espaço entre as informações das "caixas" da turma*/
+
+.infos {
+    padding: 10px;
+}
+
+/* css da barrinha de pesquisa */
+
+input::placeholder {
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.796);
+}
+
+.search-box {
+    position: absolute;
+    background-color: #45653ec6;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.796);
+    padding: 0;
+    font-size: 17px;
+    width: 0;
+    transition: .5s;
+}
+
+.search-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pra aparecer quando passar o mouse em cima*/
+.search-box:hover>.search-txt {
+
+    width: 240px;
+}
+
+.fa.fa-search {
+    color: rgba(255, 255, 255, 0.796);
+}
+
+/* fim do css da barra de pesquisa */
+
+/* corpo onde estão contidas todas as caixas de turmas */
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 25px;
+    justify-content: center;
+
+}
+
+/* "faixinha verde" com o nome das turmas e seu respectivo ano */
+
+.title {
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #577d4ec6;
+
+}
+
+.user {
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}

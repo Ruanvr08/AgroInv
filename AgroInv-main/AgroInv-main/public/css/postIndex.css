@@ -1,0 +1,32 @@
+@import 'estilos.css';
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.bg-info{
+    background-color: #7BA474!important;
+    border-radius: 20px 20px 0px 0px!important;
+}
+
+.card{
+    border-radius: 20px!important;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.btn-primary{
+
+    background-color: #678861!important;
+    
+    border-color:  #678861!important;
+}
+h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 0%;
+    border: 0cap;
+    margin: 0%;
+    font-weight: bold;
+}

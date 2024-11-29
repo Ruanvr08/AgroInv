@@ -1,0 +1,40 @@
+@import 'estilos.css';
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #6c757D;
+}
+
+.breadcrumb {
+    border-radius: 10px;
+    background-color: #7BA474;
+}
+
+.card-header {
+    border-radius: 10px 10px 0px 0px !important;
+    background-color: #7BA474 !important;
+}
+
+.card {
+    border-radius: 10px !important;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+/*Tive que fazer aqui tbm pq o botao info na barra de navegação é menor que o botao de cadastro*/
+
+.btn-info {
+    background-color: #497043cd !important;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 120px !important;
+    height: 40px !important;
+}

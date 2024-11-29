@@ -1,0 +1,166 @@
+@import 'estilos.css';
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+H1 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+body { min-height: 100vh; }
+
+section {
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+    border: 0px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+a:hover{
+    color:#ffffff;
+    text-decoration-line: none;
+}
+a{
+    color: #497043bc;
+}
+
+/* CSS DAS CAIXAS DE AULA, ESTOQUE ETC AI VC SABE NEH PEGUEI DE UM MODELO*/
+
+.section{
+    padding: 0px!important;
+}
+.feature-box-1 {
+   width: 100%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.151);
+    margin: 15px 0;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+  }
+  .feature-box-1 * {
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+  }
+  .feature-box-1 .icon {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #115020;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 22px;
+    font-size: 27px;
+  }
+  .feature-box-1 .icon i {
+    line-height: 70px;
+  }
+  .feature-box-1 h5 {
+    color: #497043bc;
+    font-weight: 600;
+  }
+  .feature-box-1 p {
+    margin: 0;
+  }
+  .feature-box-1:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    border-radius: 10px;
+    width: 0;
+    background: #49704379;
+    z-index: -1;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+  }
+  .feature-box-1:hover {
+    top: -5px;
+  }
+  .feature-box-1:hover h5 {
+    color: #ffffff;
+  }
+  .feature-box-1:hover p {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .feature-box-1:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    left: 0;
+    right: auto;
+  }
+  .section {
+      padding: 100px 0;
+      position: relative;
+  }
+  .section-title {
+      padding-bottom: 45px;
+  }
+  .section-title h2 {
+      font-weight: 700;
+      color: #497043bc;
+      font-size: 45px;
+      margin: 0 0 15px;
+      border-left: 5px solid #115020;
+      padding-left: 15px;
+  }
+/*FIM DO CSS DAS CAIXAS*/
+
+
+/* Media para adaptar o home adm para o mobile, comporta todos os cell até iphone 14*/
+
+
+@media screen and (max-width: 440px) {
+
+  .row{
+    display: grid;
+    grid-template-columns: 154px 154px;
+ 
+  }
+
+  .feature-box-1 .col-sm-6.col-lg-4 {
+    width: 40px; /* Faz com que cada coluna ocupe metade da largura disponível */
+    height: 50px;
+    box-sizing: border-box;
+  }
+
+  h1{
+    font-size: 26px;
+  }
+  h5{
+    font-size: 17px;
+  }
+
+  section {
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+    border: 0px;
+    max-width: 330px;
+    padding: 10px;
+}
+
+}

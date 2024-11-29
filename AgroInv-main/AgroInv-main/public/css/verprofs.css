@@ -1,0 +1,55 @@
+@import 'estilos.css';
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+/*Texto do cardizinho para voltar para visualização de professores*/
+
+a{
+	color:white;
+}
+
+a:hover{
+	 color: #6c757D;
+}
+
+/*Nome do professor*/
+
+h3{
+    font-size: 25px;
+    color:white;
+}
+
+.card{
+    border-radius: 20px!important;
+    margin-bottom: 125px;
+}
+
+
+.btn-primary{
+    padding: 10px;
+    background-color: #6a9f62!important;
+    border-color:  #6a9f62!important;
+    border-radius: 10px;
+}
+
+.btn.btn-sm.btn-danger{
+    background-color: rgba(255, 0, 0, 0.538)!important;
+border-color: rgba(255, 0, 0, 0.538)!important;
+padding: 10px;
+border-radius: 10px;
+}
+
+.breadcrumb{
+    margin-top: 120px;
+	border-radius: 10px;
+	background-color: #7BA474;
+}
+
+
+.card-header{
+    border-radius: 10px 10px 0px 0px!important;
+    background-color: #7BA474!important;
+}

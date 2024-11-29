@@ -1,0 +1,63 @@
+@import 'estilos.css';
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+/*Texto do cardizinho para voltar para visualização de turmas*/
+
+a{
+	color:white;
+}
+
+a:hover{
+	 color: #6c757D;
+}
+
+/*Ano e sigla do curso*/
+
+h3{
+    color:white;
+}
+
+/*corpo onde estão as informações da turma*/
+
+.card{
+    border-radius: 20px!important; 
+    margin-bottom: 105px;
+}
+
+/*botão de edição*/
+
+.btn-primary{
+    padding: 10px;
+    background-color: #6a9f62!important;
+    border-color:  #6a9f62!important;
+    border-radius: 10px;
+}
+
+/*botão de deletar*/
+
+.btn.btn-sm.btn-danger{
+    background-color: rgba(255, 0, 0, 0.538)!important;
+    border-color: rgba(255, 0, 0, 0.538)!important;
+    padding:10px;
+    border-radius: 10px;
+}
+
+/*Barrinha para navegar entre turmas e editar e tals*/
+
+.breadcrumb{
+    margin-top: 100px;
+	border-radius: 10px;
+	background-color: #7BA474;
+}
+
+/*Parte onde ta o nome da turma com o fundo verde e a letra branca*/
+
+.card-header{
+    border-radius: 10px 10px 0px 0px!important;
+    background-color: #7BA474!important;
+}
+
